@@ -2,7 +2,7 @@
     "_manifest": {
         "name": "orchard",
         "id": "orchard_providers_HD only",
-        "version": 1,
+        "version": 2,
         "classPath": "",
         "permaUrl": "https://raw.githubusercontent.com/SynclerProviders/Personal/main/or"
     },
@@ -61,7 +61,7 @@
         ],
         "base_url": "https://1337x.to",
         "fallback_urls": [
-			"https://1337x.st",
+		"https://1337x.st",
       		"https://1337x.is",
       		"https://1337x.gd",
       		"https://x1337x.ws",
