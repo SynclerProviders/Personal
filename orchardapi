@@ -2,7 +2,7 @@
     "_manifest" : {
       "name": "orchard - custom",
       "id": "Orchard RD only",
-      "version": 1,
+      "version": 2,
       "classPath": "",
       "permaUrl": "https://github.com/SynclerProviders/Personal/raw/main/orchardapi"
     },
