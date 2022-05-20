@@ -53,15 +53,15 @@
             "\"": ""
         }
     },
-    "_1337x": {
-        "name": "John was Here",
+"_1337x": {
+        "name": "1337x",
         "enabled": true,
         "languages": [
             "en"
         ],
         "base_url": "https://1337x.to",
         "fallback_urls": [
-		      "https://1337x.st",
+			"https://1337x.st",
       		"https://1337x.is",
       		"https://1337x.gd",
       		"https://x1337x.ws",
@@ -74,22 +74,22 @@
         ],
         "response_type": "text",
         "movie": {
-            "query": "/category-search/{query}/Movies/1/",
+            "query": "/category-search/{query}+1080p/Movies/1/",
             "keywords": "{title} {year}"
         },
         "episode": {
-            "query": "/sort-category-search/{query}/TV/size/desc/1/",
+            "query": "/sort-category-search/{query}+1080p/TV/size/desc/1/",
             "keywords": "{title} {episodeCode}"
         },
         "season": {
-            "query": "/sort-category-search/{query}/TV/size/desc/1/",
+            "query": "/sort-category-search/{query}+1080p/TV/size/desc/1/",
             "keywords": [
                 "{title} {seasonCode}",
                 "{title} season"
             ]
         },
         "anime": {
-            "query": "/category-search/{query}/Anime/1/",
+            "query": "/category-search/{query}+1080p/Anime/1/",
             "keywords": "{title} {episode}"
         },
         "separator": "+",
