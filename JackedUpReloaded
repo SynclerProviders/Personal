@@ -2,7 +2,7 @@
    "_manifest":{
       "name":"JakedUp - Reloaded",
       "id":"com.jakedup.reloaded",
-      "version":20231026,
+      "version":202310267,
       "classPath":"",
       "permaUrl":"https://raw.githubusercontent.com/SynclerProviders/Personal/main/JackedUpReloaded"
    },
@@ -770,59 +770,6 @@
          "seeds":"row.querySelector('.stats div:nth-child(3)').textContent.trim().replace('.','').replace('K','00')",
          "size":"row.querySelector('.stats div:nth-child(2)').textContent",
          "url":"row.querySelector('.dl-magnet').getAttribute('href')"
-      },
-      "title_replacement":{
-         ".":"",
-         ":":"",
-         "'":"",
-         "&":"",
-         "\"":"",
-         "*":""
-      },
-      "source_is_in_sub_page":false,
-      "original_package":"SynclerScrapers - OpenScrapers"
-   },
-   "animetosho":{
-      "name":"AnimeTosho",
-      "enabled":true,
-      "languages":[
-         "en"
-      ],
-      "base_url":"https:\/\/animetosho.org",
-      "response_type":"text",
-      "separator":"+",
-      "movie":{
-         "query":"\/search?q={query}",
-         "keywords":"{title} {year}"
-      },
-      "episode":{
-         "query":"\/search?q={query}",
-         "keywords":[
-            "{title} {absoluteNumber}",
-            "{title} {episode}"
-         ]
-      },
-      "season":{
-         "query":"\/search?q={query}",
-         "keywords":[
-            "{title} {seasonCode}",
-            "{title} season"
-         ]
-      },
-      "anime":{
-         "query":"\/search?q={query}",
-         "keywords":[
-            "{title} {absoluteNumber}",
-            "{title} {episode}"
-         ]
-      },
-      "html_parser":{
-         "row":"doc.querySelectorAll('.home_list_entry')",
-         "title":"row.querySelector('.link a').textContent",
-         "peers":"row.querySelector('span:nth-child(5)').textContent.match(\/\\d+\/g)[1]",
-         "seeds":"row.querySelector('span:nth-child(5)').textContent.match(\/\\d+\/g)[0]",
-         "size":"row.querySelector('.size').textContent",
-         "url":"row.querySelector('.links a:nth-child(4)').getAttribute('href')"
       },
       "title_replacement":{
          ".":"",
