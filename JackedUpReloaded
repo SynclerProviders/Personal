@@ -2,7 +2,7 @@
    "_manifest":{
       "name":"JakedUp - Reloaded",
       "id":"com.jakedup.reloaded",
-      "version":20231028,
+      "version":20231029,
       "classPath":"",
       "permaUrl":"https://raw.githubusercontent.com/SynclerProviders/Personal/main/JackedUpReloaded"
    },
@@ -798,19 +798,19 @@
       ],
       "response_type":"text",
       "movie":{
-         "query":"\/?v=&c=1&q={query}",
+         "query":"\/?q={query}",
          "keywords":"{title} {year}"
       },
       "episode":{
-         "query":"\/?v=&c=3&q={query}",
+         "query":"\/?q={query}",
          "keywords":"{title} {episodeCode}"
       },
       "season":{
-         "query":"\/?v=&c=3&q={query}",
+         "query":"\/?q={query}",
          "keywords":"{title} {seasonCode}"
       },
       "anime":{
-         "query":"\/?v=&c=&q={query}",
+         "query":"\/?q={query}",
          "keywords":"{title} {episode}"
       },
       "html_parser":{
