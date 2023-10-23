@@ -2,7 +2,7 @@
    "_manifest":{
       "name":"JakedUp - Reloaded",
       "id":"com.jakedup.reloaded",
-      "version":202310267,
+      "version":20231028,
       "classPath":"",
       "permaUrl":"https://raw.githubusercontent.com/SynclerProviders/Personal/main/JackedUpReloaded"
    },
@@ -223,59 +223,6 @@
          "*":""
       },
       "source_is_in_sub_page":true,
-      "original_package":"SynclerScrapers - OpenScrapers"
-   },
-   "anirena":{
-      "name":"AniRena",
-      "enabled":true,
-      "languages":[
-         "en"
-      ],
-      "base_url":"https:\/\/anirena.com",
-      "response_type":"text",
-      "separator":"+",
-      "movie":{
-         "query":"\/?s={query}",
-         "keywords":"{title}"
-      },
-      "episode":{
-         "query":"\/?s={query}",
-         "keywords":[
-            "{title} {absoluteNumber}",
-            "{title} {episode}"
-         ]
-      },
-      "season":{
-         "query":"\/?s={query}",
-         "keywords":[
-            "{title} {seasonCode}",
-            "{title} season"
-         ]
-      },
-      "anime":{
-         "query":"\/?s={query}",
-         "keywords":[
-            "{title} {absoluteNumber}",
-            "{title} {episode}"
-         ]
-      },
-      "html_parser":{
-         "row":"doc.querySelectorAll('div.full2')",
-         "title":"row.querySelector('table tbody tr .torrents_small_info_data1 a:nth-child(2)').textContent",
-         "peers":"row.querySelector('table tbody tr .torrents_small_leechers_data1').textContent",
-         "seeds":"row.querySelector('table tbody tr .torrents_small_seeders_data1').textContent",
-         "size":"row.querySelector('table tbody tr .torrents_small_size_data1').textContent",
-         "url":"row.querySelector('table tbody tr .torrents_small_info_data2 a:nth-child(2)').getAttribute('href')"
-      },
-      "title_replacement":{
-         ".":"",
-         ":":"",
-         "'":"",
-         "&":"",
-         "\"":"",
-         "*":""
-      },
-      "source_is_in_sub_page":false,
       "original_package":"SynclerScrapers - OpenScrapers"
    },
    "torrentdownloads":{
@@ -837,59 +784,6 @@
          "*":""
       },
       "source_is_in_sub_page":true,
-      "original_package":"SynclerScrapers - OpenScrapers"
-   },
-   "anidex":{
-      "name":"AniDex",
-      "enabled":true,
-      "languages":[
-         "en"
-      ],
-      "base_url":"https:\/\/anidex.info",
-      "response_type":"text",
-      "separator":"+",
-      "movie":{
-         "query":"\/?q={query}",
-         "keywords":"{title} {year}"
-      },
-      "episode":{
-         "query":"\/?q={query}",
-         "keywords":[
-            "{title} {absoluteNumber}",
-            "{title} {episode}"
-         ]
-      },
-      "season":{
-         "query":"\/?q={query}",
-         "keywords":[
-            "{title} {seasonCode}",
-            "{title} season"
-         ]
-      },
-      "anime":{
-         "query":"\/?q={query}",
-         "keywords":[
-            "{title} {absoluteNumber}",
-            "{title} {episode}"
-         ]
-      },
-      "html_parser":{
-         "row":"doc.querySelectorAll('tbody tr')",
-         "title":"row.querySelector('td:nth-child(3) a').textContent",
-         "peers":"row.querySelector('span:nth-child(10)').textContent",
-         "seeds":"row.querySelector('td:nth-child(9)').textContent",
-         "size":"row.querySelector('td:nth-child(7)').textContent",
-         "url":"row.querySelector('td:nth-child(6) a').getAttribute('href')"
-      },
-      "title_replacement":{
-         ".":"",
-         ":":"",
-         "'":"",
-         "&":"",
-         "\"":"",
-         "*":""
-      },
-      "source_is_in_sub_page":false,
       "original_package":"SynclerScrapers - OpenScrapers"
    },
    "yourbittorrent":{
