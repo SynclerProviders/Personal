@@ -798,19 +798,19 @@
       ],
       "response_type":"text",
       "movie":{
-         "query":"\/?q={query}",
+         "query":"\/?v=1&c=1&q={query}",
          "keywords":"{title} {year}"
       },
       "episode":{
-         "query":"\/?q={query}",
+         "query":"\/?v=1&c=3&q={query}",
          "keywords":"{title} {episodeCode}"
       },
       "season":{
-         "query":"\/?q={query}",
+         "query":"\/?v=1&c=3&q={query}",
          "keywords":"{title} {seasonCode}"
       },
       "anime":{
-         "query":"\/?q={query}",
+         "query":"\/?v=6&c=&q={query}",
          "keywords":"{title} {episode}"
       },
       "html_parser":{
