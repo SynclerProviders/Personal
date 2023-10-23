@@ -831,7 +831,7 @@
       ],
       "base_url":"https:\/\/bitsearch.to",
       "fallback_urls":[
-	https:\/\/solidtorrents.to
+	"https:\/\/solidtorrents.to"
       ],	
       "response_type":"text",
       "separator":"+",
