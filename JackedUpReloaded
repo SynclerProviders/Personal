@@ -118,56 +118,13 @@
       "source_is_in_sub_page":false,
       "original_package":"SynclerScrapers - OpenScrapers"
    },
-   "yts":{
-      "name":"YTS",
-      "enabled":true,
-      "languages":[
-         "en"
-      ],
-      "base_url":"https:\/\/yts.mx",
-      "fallback_urls":[
-		 "https:\/\/yts.lt",
-		 "https:\/\/yts.am",
-         "https:\/\/yts.ag",
-		 "https:\/\/yts.pm"
-      ],
-      "response_type":"json",
-      "movie":{
-         "query":"\/api\/v2\/list_movies.json?query_term={query}&sort_by=seeds&order_by=desc",
-         "keywords":"{imdbId}"
-      },
-      "json_format":{
-         "results":"data.movies",
-         "sub_results":"torrents",
-         "url":"magnet:?xt=urn:btih:{hash}&tr=http:\/\/track.one:1234\/announce&tr=udp:\/\/track.two:80",
-         "title":"title_long",
-         "seeds":"seeds",
-         "peers":"peers",
-         "size":"size",
-         "quality":"quality",
-         "hash":"hash"
-      },
-      "title_replacement":{
-         ".":"",
-         ":":"",
-         "'":"",
-         "&":"",
-         "\"":"",
-         "*":""
-      },
-      "trust_results":true,
-      "original_package":"SynclerScrapers - OpenScrapers"
-   },
    "thepiratebay":{
-      "name":"PirateBay",
+      "name":"TPB",
       "enabled":true,
       "languages":[
          "en"
       ],
       "base_url":"https:\/\/apibay.org",
-      "fallback_urls":[
-         
-      ],
       "response_type":"json",
       "movie":{
          "query":"\/q.php?q={query}&cat=207,202,201",
@@ -328,10 +285,6 @@
          "en"
       ],
       "base_url":"https:\/\/torrentdownloads.me",
-      "fallback_urls":[
-         "https:\/\/torrentdownloads.info",
-         "http:\/\/torrentdownloads.d4.re"
-      ],
       "response_type":"text",
       "separator":"+",
       "movie":{
@@ -509,9 +462,6 @@
          "en"
       ],
       "base_url":"https:\/\/eztv.re",
-      "fallback_urls":[
-
-      ],
       "response_type":"text",
       "episode":{
          "query":"\/search\/{query}",
@@ -657,9 +607,6 @@
          "en"
       ],
       "base_url":"https:\/\/nyaa.si",
-      "fallback_urls":[
-         
-      ],
       "response_type":"text",
       "separator":"+",
       "movie":{
@@ -710,9 +657,6 @@
          "en"
       ],
       "base_url":"https:\/\/nyaa.si",
-      "fallback_urls":[
-         
-      ],
       "response_type":"text",
       "separator":"+",
       "movie":{
@@ -886,6 +830,9 @@
          "en"
       ],
       "base_url":"https:\/\/bitsearch.to",
+      "fallback_urls":[
+	https:\/\/solidtorrents.to
+      ],	
       "response_type":"text",
       "separator":"+",
       "movie":{
@@ -941,9 +888,6 @@
          "en"
       ],
       "base_url":"https:\/\/animetosho.org",
-      "fallback_urls":[
-         
-      ],
       "response_type":"text",
       "separator":"+",
       "movie":{
@@ -997,9 +941,6 @@
          "en"
       ],
       "base_url":"https:\/\/torlock.com",
-      "fallback_urls":[
-	  
-      ],
       "response_type":"text",
       "separator":"-",
       "movie":{
@@ -1057,9 +998,6 @@
          "en"
       ],
       "base_url":"https:\/\/anidex.info",
-      "fallback_urls":[
-         
-      ],
       "response_type":"text",
       "separator":"+",
       "movie":{
@@ -1113,9 +1051,6 @@
          "en"
       ],
       "base_url":"https:\/\/nyaa.si",
-      "fallback_urls":[
-         
-      ],
       "response_type":"text",
       "separator":"+",
       "episode":{
@@ -1137,53 +1072,6 @@
       "source_is_in_sub_page":false,
       "original_package":"Orion - Wako"
    },
-   "solidtorrents":{
-      "name":"Solidtorrents",
-      "enabled":true,
-      "languages":[
-         "en"
-      ],
-      "base_url":"https:\/\/solidtorrents.to/search?q={query}&category=1&subcat=2&sort=seeders",
-      "response_type":"json",
-      "movie":{
-         "query":"",
-         "keywords":"{title} {year}"
-      },
-      "episode":{
-         "query":"",
-         "keywords":"{title} {episodeCode}"
-      },
-      "season":{
-         "query":"",
-         "keywords":[
-            "{title} {seasonCode}",
-            "{title} season"
-         ]
-      },
-      "anime":{
-         "query":"",
-         "keywords":[
-            "{title} {episode}",
-            "{title} {absoluteNumber}"
-         ]
-      },
-      "json_format":{
-         "results":"results",
-         "url":"magnet",
-         "title":"title",
-         "seeds":"swarm.seeders",
-         "peers":"swarm.leechers",
-         "size":"size"
-      },
-      "title_replacement":{
-         ".":"",
-         ":":"",
-         "'":"",
-         "&":""
-      },
-      "original_package":"Orion - Wako"
-   },
-
    "yourbittorrent":{
       "name":"YourBittorent",
       "enabled":true,
