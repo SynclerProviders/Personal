@@ -2,7 +2,7 @@
    "_manifest":{
       "name":"JakedUp - Reloaded",
       "id":"com.jakedup.reloaded",
-      "version":20231024,
+      "version":20231025,
       "classPath":"",
       "permaUrl":"https://raw.githubusercontent.com/SynclerProviders/Personal/main/JackedUpReloaded"
    },
@@ -339,13 +339,14 @@
       "languages":[
          "en"
       ],
-      "base_url":"https:\/\/kickass.onl/",
+      "base_url":"https:\/\/kickass.onl",
       "fallback_urls":[
-         "https:\/\/kat.how",
-         "https:\/\/kat.li",
-         "https:\/\/kick4ss.com/",
-         "https:\/\/kickass2.st",
-         "https:\/\/thekat.info"
+         "https:\/\/kickasstorrents.bz",
+         "https:\/\/kick4ss.com",
+         "https:\/\/kkat.net",
+	 "https:\/\/kickasst.net",
+         "https:\/\/kickasstorrents.id",
+	 "https:\/\/kickasshydra.dev"
       ],
       "response_type":"text",
       "separator":"%20",
@@ -404,7 +405,7 @@
       "base_url":"https:\/\/torrentgalaxy.to",
       "fallback_urls":[
          "https:\/\/torrentgalaxy.mx",
-         "https:\/\/tgx.rs/",
+         "https:\/\/tgx.rs",
          "https:\/\/tgx.sb"
       ],
       "response_type":"text",
