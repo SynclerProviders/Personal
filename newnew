@@ -2,7 +2,7 @@
    "_manifest":{
       "name":"JakedUp - Reloaded",
       "id":"com.jakedup.reloaded",
-      "version":2,
+      "version":3,
       "classPath":"",
       "permaUrl":"https://raw.githubusercontent.com/SynclerProviders/Personal/main/newnew"
    },
@@ -330,68 +330,6 @@
          "seeds":"row.querySelector('.tdleech').textContent.replace(',','')",
          "size":"row.querySelector('.tdnormal:nth-child(3)').textContent",
          "url":"row.querySelector('.tt-name a:nth-child(2)').getAttribute('href')"
-      },
-      "title_replacement":{
-         ".":"",
-         ":":"",
-         "'":"",
-         "&":"",
-         "\"":"",
-         "*":""
-      },
-      "source_is_in_sub_page":true,
-      "original_package":"SynclerScrapers - OpenScrapers"
-   },
-   "1337x":{
-      "name":"1337x",
-      "enabled":true,
-      "languages":[
-         "en"
-      ],
-      "base_url":"https:\/\/1337x.to",
-      "fallback_urls":[
-         "https:\/\/1337x.st",
-         "https:\/\/x1337x.ws",
-         "https:\/\/x1337x.eu",
-         "https:\/\/x1337x.se",
-         "https:\/\/1337x.so"
-      ],
-      "response_type":"text",
-      "separator":"+",
-      "movie":{
-         "query":"\/category-search\/{query}\/Movies\/1\/",
-         "keywords":"{title} {year}"
-      },
-      "episode":{
-         "query":"\/sort-category-search\/{query}\/TV\/size\/desc\/1\/",
-         "keywords":[
-            "{title} {episodeCode}",
-            "{title} {year} {episodeCode}"
-         ]
-      },
-      "season":{
-         "query":"\/sort-category-search\/{query}\/TV\/size\/desc\/1\/",
-         "keywords":[
-            "{title} {seasonCode}",
-            "{title} season",
-            "{title} {year} {seasonCode}",
-            "{title} {year} season"
-         ]
-      },
-      "anime":{
-         "query":"\/category-search\/{query}\/Anime\/1\/",
-         "keywords":[
-            "{title} {absoluteNumber}",
-            "{title} {episode}"
-         ]
-      },
-      "html_parser":{
-         "row":"doc.querySelectorAll('tbody > tr')",
-         "title":"row.querySelector('a:nth-child(2)').innerHTML",
-         "peers":"row.querySelector('.leeches').innerHTML",
-         "seeds":"row.querySelector('.seeds').innerHTML",
-         "size":"row.querySelector('tbody > tr .size').textContent.split('B')[0] + 'B'",
-         "url":"row.querySelector('a:nth-child(2)').getAttribute('href')"
       },
       "title_replacement":{
          ".":"",
